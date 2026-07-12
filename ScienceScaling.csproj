@@ -5,7 +5,7 @@
     <AssemblyName>ScienceScaling</AssemblyName>
     <Product>ScienceScaling</Product>
     <Version>0.1.0</Version>
-    <BepInExPluginGuid>matt.solarexpanse.sciencescaling</BepInExPluginGuid>
+    <BepInExPluginGuid>marr75.solarexpanse.sciencescaling</BepInExPluginGuid>
   </PropertyGroup>
 
   <ItemGroup>
