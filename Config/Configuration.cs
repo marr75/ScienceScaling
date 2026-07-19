@@ -32,11 +32,13 @@ sealed class Configuration {
         );
         const string labBonusStrengthDescription =
             "How much each lab's bonus is worth. Every lab has a built-in \"lab bonus\" rating under "
-            + "the hood (a Mk1 lab is rated at 6 points); this setting is the slice of your base "
-            + "research rate that each of those points adds. At the default 0.02, each point is worth "
-            + "+2%, so one Mk1 lab (6 points) alone gives +12%, and a second identical lab compounds "
-            + "on top of that for +24% combined. Turn this up to make lab investment pay off faster; "
-            + "turn it down (or to 0) to make labs matter less.";
+            + "the hood (vanilla's research laboratory is rated at 3 points); this setting is the "
+            + "slice of your base research rate that each of those points adds. At the default 0.02, "
+            + "each point is worth +2%, so one vanilla lab (3 points) gives +6%. The bonus is a "
+            + "straight sum over your labs, so a second lab brings the total to +12% - and since only "
+            + "one lab fits per body, that second one has to go on another world. Data mods can "
+            + "change the rating: Teddit's Research Labs Rework, for instance, uses 6. Turn this up to "
+            + "make lab investment pay off faster; turn it down (or to 0) to make labs matter less.";
         LabBonusStrength = c.Bind(
             "Balance",
             "LabBonusStrength",

@@ -29,7 +29,7 @@ Settings live in
 - **`BaseRateMultiplier`
   ** — an overall speed dial for research. 1.0 is vanilla pace; 2.0 doubles every research rate; 0.5 halves it. It scales the whole system evenly, so it doesn't change how much labs matter relative to each other.
 - **`LabContributionPerPoint`
-  ** — how much punch each lab's bonus packs. Every lab has a built-in "lab bonus" rating (a Mk1 lab is worth 6 points, for example); this setting is the percentage of your base rate that each of those points adds. Higher values make investing in labs pay off faster.
+  ** — how much punch each lab's bonus packs. Every lab has a built-in "lab bonus" rating (vanilla's research laboratory is worth 3 points); this setting is the percentage of your base rate that each of those points adds. At the default 0.02 that's +2% per point, so one vanilla lab gives +6%, and a second brings the total to +12% — note that only one lab fits per body, so the second has to go on another world. Data mods can change the rating; Teddit's Research Labs Rework uses 6. Higher values make investing in labs pay off faster.
 
 ## Requirements
 
