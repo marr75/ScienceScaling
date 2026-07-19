@@ -11,20 +11,25 @@ This is part of a longer balance push: get to a game where "sleep until fusion" 
 ## What it does
 
 - Turns each lab's contribution into a percentage boost on top of your current research rate, instead of vanilla's flat point-per-hour add-on. Building a second or third lab is worth noticeably more than the first.
-- Gives you one dial (`BaseRateMultiplier`) to speed up or slow down all research across the board, without touching how labs stack against each other.
+- Gives you one dial (
+  `BaseRateMultiplier`) to speed up or slow down all research across the board, without touching how labs stack against each other.
 - Ships with a full on/off switch. Flip it off and research behaves exactly like unmodified Solar Expanse.
 
 ## Before / after
 
-Vanilla: each lab adds a fixed number of research points per hour, so as your base research rate grows from tech and observatories, each additional lab matters _less_ in relative terms. Science Scaling: each lab's bonus is applied as a multiplier on your current rate, so labs stay meaningful (and start compounding) no matter how far your research program has scaled up.
+Vanilla: each lab adds a fixed number of research points per hour, so as your base research rate grows from tech and observatories, each additional lab matters
+_less_ in relative terms. Science Scaling: each lab's bonus is applied as a multiplier on your current rate, so labs stay meaningful (and start compounding) no matter how far your research program has scaled up.
 
 ## Configuration
 
-Settings live in `BepInEx/config/marr75.solarexpanse.sciencescaling.cfg` and are editable in-game if you have Configuration Manager installed.
+Settings live in
+`BepInEx/config/marr75.solarexpanse.sciencescaling.cfg` and are editable in-game if you have Configuration Manager installed.
 
 - **`Enabled`** — master on/off switch. Off = vanilla research math, unchanged.
-- **`BaseRateMultiplier`** — an overall speed dial for research. 1.0 is vanilla pace; 2.0 doubles every research rate; 0.5 halves it. It scales the whole system evenly, so it doesn't change how much labs matter relative to each other.
-- **`LabContributionPerPoint`** — how much punch each lab's bonus packs. Every lab has a built-in "lab bonus" rating (a Mk1 lab is worth 6 points, for example); this setting is the percentage of your base rate that each of those points adds. Higher values make investing in labs pay off faster.
+- **`BaseRateMultiplier`
+  ** — an overall speed dial for research. 1.0 is vanilla pace; 2.0 doubles every research rate; 0.5 halves it. It scales the whole system evenly, so it doesn't change how much labs matter relative to each other.
+- **`LabContributionPerPoint`
+  ** — how much punch each lab's bonus packs. Every lab has a built-in "lab bonus" rating (a Mk1 lab is worth 6 points, for example); this setting is the percentage of your base rate that each of those points adds. Higher values make investing in labs pay off faster.
 
 ## Requirements
 
